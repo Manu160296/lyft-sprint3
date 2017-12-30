@@ -56,3 +56,64 @@ img {
         transform: rotate(360deg)
     }
 }
+
+/*HOME STYLES */
+.bg--home {
+    background-image: url(../assets/images/fondo1.jpg);
+    background-position: bottom;
+
+}
+.margin-0 {
+    margin:0;
+}
+
+.z-index {
+    position: relative;
+   /* z-index: 3;*/
+    bottom: 50px;
+    
+}
+
+.padding{
+    padding-top: 20vh;
+}
+
+.text-white{
+    color: #ffffff;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+.btn--styles{
+  background: transparent;
+}
+
+/* SIGN UP STYLES*/ 
+
+.btn--style1 {
+    background-color: #EA0B8C;
+    color: #fff;
+}
+
+.title-15-px{
+    font-size: 15px;
+}
+
+.title-30-px{
+    font-size: 30px;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__icon--border-radius {
+    border-radius: 50%;
+    border: 2px solid #333333;
+    padding: 3px;
+}
+
