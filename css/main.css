@@ -99,7 +99,9 @@ img {
 .title-15-px{
     font-size: 15px;
 }
-
+.title-20-px{
+    font-size: 27px;
+}
 .title-30-px{
     font-size: 30px;
 
@@ -120,4 +122,5 @@ img {
 .altura {
     height: 100vh;
 }
+
 
