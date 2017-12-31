@@ -1,4 +1,4 @@
-$(document).ready(function () {
+
 
     $("#phone").intlTelInput();
 
@@ -34,15 +34,29 @@ inputNumber.on('input' , function () {
 
 });
 
+// funcion código aleatorio
+function getRandomCode () {
+   return Math.trunc(Math.random() * (999 - 100) + 100)
+}
+
+var randomCode ;
+//funcion que retiene el codigo random para validarlo:
+function tempRandomCode () {
+    randomCode = getRandomCode();
+    localStorage.prueba = randomCode;
+}
+
 //ascociamos el evento  click a buttonNext :
-   buttonNext.on('click' , function () {
-    var randomCode = Math.trunc(Math.random() * (999 - 100) + 100)
-       alert('Tu código ' + 'LAB-'+ randomCode)
+  buttonNext.on('click' , function (event) { 
+      event.preventDefault()
+
+   // alert('Tu código ' + 'LAB-'+ randomCode)
+  console.log( tempRandomCode())
+  alert('Tu código ' + 'LAB-'+ randomCode);
     window.location.href = 'verify-phone-number.html';
-   });
+    
+   }); 
+  //var clave = localStorage.setItem('clave',randomCode);
 
 
-//console.log(buttonNext);
 
-
-});
