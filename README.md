@@ -11,7 +11,7 @@
 
 El reto consiste en recrear la siguiente página web; deberá realizarse utilizando jquery:
 
-##REQUERIMIENTOS:
+## REQUERIMIENTOS:
 
 * Vista splash con duración de 2 a 5 segundos que redirecciona a la vista principal.
 ![IMAGEN-1](https://raw.githubusercontent.com/AnaSalazar/curricula-js/ff67ceb625957cd36d4c16ba6e0408c727bd0682/04-social-network/02-jquery/08-code-challenges/lyft/splash.png)
