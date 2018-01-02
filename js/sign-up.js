@@ -43,7 +43,7 @@ function tempRandomCode() {
 // ascociamos el evento  click a buttonNext :
 buttonNext.on('click', function(event) {
   event.preventDefault();
-
+  tempRandomCode();
   alert('Tu código ' + 'LAB-' + randomCode);
   window.location.href = 'verify-phone-number.html';
 });
