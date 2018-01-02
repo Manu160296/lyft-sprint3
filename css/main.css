@@ -1,90 +1,89 @@
+/* RESET STYLES */
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/* SPLASH STYLES */
+
 :root {
-    --primary: linear-gradient( 325deg,#D60986, #5D0063);
+  --primary: linear-gradient( 325deg,#D60986, #5D0063);
 }
 
 .bg--primary {
-    background: var(--primary);
+  background: var(--primary);
    
 }
 
 .bg-size {
-    position:fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position:fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.flex {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-size-100-100 {
+  width: 100%;
+  height: 100%;
 }
 
-img {
-    width: 100%;
-    height: auto;
+.width-100{
+	width: 100%;
+	height: auto;
 }
 
 .preloader--styles { 
-    width: 60px;
-    height: 60px;
-    border: 6px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    border-top: 6px solid #FF666A;
-    animation: load 1s infinite linear;
-    margin-top: 20px;
-   /* position: absolute;
-    bottom: 10%; */
+  width: 60px;
+  height: 60px;
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%; 
+  border-top: 6px solid #FFF;
+  animation: load 1s infinite linear;
+  margin-top: 20px;
 }
 
 @keyframes load {
-    0% {
-        transform: rotate(0deg)  
-    }
+  0% {
+    transform: rotate(0deg)  
+  }
 
-    100% {
-        transform: rotate(360deg)
-    }
+  100% {
+    transform: rotate(360deg)
+  }
 }
 
 /*HOME STYLES */
+
 .bg--home {
-    background-image: url(../assets/images/fondo1.jpg);
-    background-position: bottom;
-
+  background-image: url(../assets/images/fondo1.jpg);
+  background-position: bottom center;
 }
+
 .margin-0 {
-    margin:0;
+  margin:0;
 }
 
-.z-index {
-    position: relative;
-   /* z-index: 3;*/
-    bottom: 50px;
-    
+.position-relative {
+  position: relative;
+  bottom: 50px;    
 }
 
-.padding{
-    padding-top: 20vh;
+.padding-top-15-vh{
+  padding-top: 15vh;
 }
 
 .text-white{
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .weight-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
+
 .btn--styles{
   background: transparent;
 }
@@ -92,35 +91,77 @@ img {
 /* SIGN UP STYLES*/ 
 
 .btn--style1 {
-    background-color: #EA0B8C;
-    color: #fff;
+  background-color: #EA0B8C;
+  color: #fff;
 }
 
 .title-15-px{
-    font-size: 15px;
+  font-size: 15px;
 }
-.title-20-px{
-    font-size: 27px;
-}
-.title-30-px{
-    font-size: 30px;
 
+.title-20-px{
+  font-size: 27px;
+}
+
+.title-30-px{
+  font-size: 30px;
+
+}
+
+.reset-anchore-styles{
+	text-decoration: none;
+	color: #333333;
+}
+
+.reset-anchore-styles:hover{
+	cursor: pointer;
+	text-decoration: none;
+	color: #333333;
+	background-color: #e0d7dc
 }
 
 .flex-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__icon--border-radius {
-    border-radius: 50%;
-    border: 2px solid #333333;
-    padding: 3px;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 3px;
 }
 
 .altura {
-    height: 100vh;
+  height: 100vh;
 }
 
+/*VERIFY YOUR PHONE STYLES */
 
+.input-styles {
+	width: 50px;
+	font-size: 1.3em;
+	font-weight: 600;
+	padding-left: 2px;
+	letter-spacing: 4px;
+	outline: none;
+	border: none;
+	border-bottom:3px dashed #EA0B8C;
+	border-radius: 0;
+
+}
+
+/* SIGN-UP-2 STYLES*/
+
+#width-50{
+	width: 50%;
+}
+
+/*CLOSE STYLES */
+
+.flex-items {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+}
